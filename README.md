@@ -30,7 +30,38 @@ This repository contains the recovered/available source files, not a complete An
 6. Build and run on a physical Android phone. Grant permissions when prompted.
 
 No `activity_main.xml` is required by this source version; the interface is created programmatically in Java.
+## Technology Stack
 
+- **Programming Language:** Java
+- **Development Environment:** Android Studio
+- **Platform:** Android
+- **Local Data Storage:** SharedPreferences and app-private file storage
+- **Speech Recognition:** Android Speech Recognition API
+- **Audio Recording:** Android MediaRecorder
+- **Emergency Communication:** SMS and Android Intent APIs
+- **Location Services:** Android Location APIs
+- **Maps Integration:** Google Maps location links
+
+## Application Screenshots
+
+The following screenshots demonstrate the SafeSpace mobile application interface and its emergency-support features.
+
+![SafeSpace Main Interface](screenshots/safespace_main_screen.png)
+
+![Women's Emergency Helplines](screenshots/emergency_helplines.png)
+
+## Future Enhancements
+
+- Import emergency contacts directly from the device address book.
+- Expand the women's emergency helpline directory.
+- Improve offline speech recognition capabilities.
+- Introduce encryption for locally stored audio recordings.
+- Improve emergency location sharing and reliability.
+- Add comprehensive testing across different Android devices.
+
+## Project Status
+
+This repository contains recovered source code and project documentation from the original SafeSpace Android application. It is intended to document the available implementation and demonstrate the project's concept and development.
 ## Important limitations and safety notes
 
 - Voice activation is **tap-to-speak** using Android speech recognition followed by keyword matching. It is not always-on voice detection or a custom machine-learning model.
