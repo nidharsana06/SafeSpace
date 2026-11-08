@@ -41,6 +41,3 @@ No `activity_main.xml` is required by this source version; the interface is crea
 - Microphone recording must be started while the app is visible under modern Android foreground-service restrictions.
 - Test only with consenting contacts and verify behavior safely. The panic action can send real SMS messages.
 
-## Suggested repository media
-
-Add screenshots of the app interface and helpline dialog separately through GitHub's README or repository media. Do not publish personal phone numbers, private recordings, API keys, or other sensitive information.
