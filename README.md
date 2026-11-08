@@ -42,14 +42,6 @@ No `activity_main.xml` is required by this source version; the interface is crea
 - **Location Services:** Android Location APIs
 - **Maps Integration:** Google Maps location links
 
-## Application Screenshots
-
-The following screenshots demonstrate the SafeSpace mobile application interface and its emergency-support features.
-
-![SafeSpace Main Interface](screenshots/safespace_main_screen.png)
-
-![Women's Emergency Helplines](screenshots/emergency_helplines.png)
-
 ## Future Enhancements
 
 - Import emergency contacts directly from the device address book.
